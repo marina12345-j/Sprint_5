@@ -1,10 +1,10 @@
-from time import sleep
-from selenium.webdriver.support import expected_conditions
+#from time import sleep
+#from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.by import By
 from confest import driver
-from data import Data
-from locators import Locators
-from selenium.webdriver.support.wait import WebDriverWait
+#from data import Data
+#rom locators import Locators
+#from selenium.webdriver.support.wait import WebDriverWait
 # переход из личного кабинета в конструктор
 class TestDesignerLogo:
     def test_designer(self, driver):
