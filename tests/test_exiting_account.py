@@ -1,9 +1,9 @@
-#from time import sleep
+from time import sleep
 from selenium.webdriver.common.by import By
 from confest import driver
-#from data import Data
-#from locators import Locators
-#from selenium.webdriver.support.wait import WebDriverWait
+from data import Data
+from locators import Locators
+from selenium.webdriver.support.wait import WebDriverWait
 
 # выход из аккаунта
 
