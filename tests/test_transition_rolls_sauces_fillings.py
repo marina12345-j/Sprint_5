@@ -6,8 +6,9 @@ class TestTransitionRollsSaucesFillings:
     def test_transition_rolls(self,driver):
         # нажимаем на кнопку Булки (секция)
         section_rolls = driver.find_element_by_xpath(Locators.CHAPTER_ROLLS).click()
+        class_name = section_rolls.get_attribute('class')
         transition_rolls = driver.find_element(Locators.TITTLE_ROLLS)
-        assert section_rolls.text == 'Булки' and transition_rolls.text == 'Булки'
+        assert 'current' in class_name and transition_rolls.text == 'Булки'
 
     def test_transition_sauces(self, driver):
         # нажимаем на кнопку Соусы (секция)

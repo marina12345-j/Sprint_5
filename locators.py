@@ -25,16 +25,16 @@ class Locators:
     BUTTON_STELLAR_BURGERS = (By.XPATH, "//div[@class = 'AppHeader_header__logo__2D0X2']/a[@href = '/']") # логотип stellar burgers
     BUTTON_EXIT = (By.XPATH, "//button[text() = 'Выход']") # кнопка Выход в форме личного кабинета
 
-    CHAPTER_ROLLS = (By.XPATH, "//span[text() = 'Булки' and @class = 'text text_type_main-default']") # кнопка Булки
+    CHAPTER_ROLLS = (By.XPATH, "//span[text() = 'Булки' and @class = 'tab_tab__1SPyg tab_tab type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect']") # кнопка Булки
     TITTLE_ROLLS = (By.XPATH, "//h2[text() = 'Булки' and @class = 'text text_type_main-medium mb-6 mt-10']")  # Заголовок списка булок
 
-    CHAPTER_SAUCES = (By.XPATH, "//span[text() = 'Соусы' and @class = 'text text_type_main-default']")   # кнопка соусы
+    CHAPTER_SAUCES = (By.XPATH, "//span[text() = 'Соусы' and @class = 'tab_tab__1SPyg tab_tab type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect']")   # кнопка соусы
     TITTLE_SAUCES = (By.XPATH, "//h2[text() = 'Соусы' and @class = 'text text_type_main-medium mb-6 mt-10']") # Заголовок списка соусы
 
-    CHAPTER_FILLINGS = (By.XPATH, "//span[text() = 'Начинки' and @class = 'text text_type_main-default']")  # кнопка Начинки
+    CHAPTER_FILLINGS = (By.XPATH, "//span[text() = 'Начинки' and @class = 'tab_tab__1SPyg tab_tab type_current__2BEPc pt-4 pr-10 pb-4 pl-10 noselect']")  # кнопка Начинки
     TITTLE_FILLINGS = (By.XPATH, "//h2[text() = 'Начинки' and @class = 'text text_type_main-medium mb-6 mt-10']") # Заголовок списка Начинки
 
-    BUTTON_SAVE = (By.XPATH, '//*[@id="root"]/div/main/div/form/button')  # кнопка Сохранить в форме восстановления
+    BUTTON_SAVE = (By.XPATH, "//button[text() = 'Сохранить']")  # кнопка Сохранить в форме восстановления
 
     BUTTON_PLACE_ON_ORDER = (By.XPATH, "//button[text() = 'Оформить заказ']") # кнопка оформить заказ
     TITTLE_ASSEMBLE_THE_BURGER = (By.XPATH, "//h1[text() = 'Соберите бургер' and @class = 'text text_type_main-large mb-5 mt-10']") # заголовок Соберите бургер
